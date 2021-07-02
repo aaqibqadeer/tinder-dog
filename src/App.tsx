@@ -6,8 +6,8 @@ import { Home, Histroy } from "./pages";
 function App() {
   return (
     <div className="App">
-      <Header />
       <Router>
+        <Header />
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/history" component={Histroy} />
