@@ -1,7 +1,7 @@
-export const Photo = () => {
+export const Photo = ({ imgLink }: { imgLink: string }) => {
   return (
     <img
-      src="https://images.dog.ceo/breeds/terrier-bedlington/n02093647_99.jpg"
+      src={imgLink}
       className="mx-auto d-block card-img-top img-width w-25"
       alt="..."
     />
