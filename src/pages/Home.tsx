@@ -32,8 +32,7 @@ export const Home = () => {
             <div className="col-12">
               <div className="card border-0">
                 <Photo imgLink={res.imageLink} />
-                <div className="row">
-                  <div className="col-4"></div>
+                <div className="row justify-content-center">
                   <div className="col-2">
                     <Button
                       classes="btn-success"

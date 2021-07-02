@@ -10,7 +10,7 @@ export const Button = ({
   return (
     <div className="card-body">
       <button
-        className={"btn mx-auto d-block " + classes}
+        className={"btn mx-auto d-block w-75 " + classes}
         onClick={handleUpdate}
       >
         {label}

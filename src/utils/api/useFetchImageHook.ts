@@ -22,7 +22,6 @@ export const useFetchImage = () => {
     try {
       const fetch = await api.get("breeds/image/random");
       const response: ImageResponse = fetch.data;
-      console.log(response);
       setRes({
         success: true,
         loading: false,
